@@ -67,9 +67,9 @@ button {
     }
 
     .container {
-        height: auto; /* Adjust height to auto */
-        margin: 10px auto; /* Center horizontally and add top/bottom margin */
-        width: 90%; /* Ensure it takes a reasonable width */
+        height: 80%; /* Adjust height to auto */
+        margin: 10px; /* Center horizontally and add top/bottom margin */
+        width: 80%; /* Ensure it takes a reasonable width */
     }
 
     h2 {
