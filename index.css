@@ -61,6 +61,7 @@ button {
 @media screen and (max-width: 576px) {
     .container {
         height: 80%;
+        margin: auto;
     }
 }
 
