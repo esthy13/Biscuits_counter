@@ -53,3 +53,9 @@ button {
     font-weight: bold;
 }
 
+@media screen and (max-width: 576px) {
+    .container {
+        height: 85%;
+    }
+}
+
