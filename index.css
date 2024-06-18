@@ -60,6 +60,7 @@ button {
     font-weight: bold;
 }
 
+<<<<<<< HEAD
 @media screen and (max-width: 576px) {
     body {
         display: block; /* Disable flexbox for smaller screens */
@@ -79,3 +80,5 @@ button {
         width: 150px; /* Adjust button width */
     }
 }
+=======
+>>>>>>> parent of 1cb6598 (Update index.css)
