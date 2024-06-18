@@ -8,14 +8,17 @@ body {
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
     width: 100vw;
+    height: 100vh; /* Ensure body takes full height */
     margin: 0;
     padding: 0;
+    display: flex; /* Enable flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
 }
 
 .container {
     background: rgba(255, 255, 255, 0.644);
     max-width: 80%;
-    margin-top: 10px;
     border-radius: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -59,9 +62,21 @@ button {
 }
 
 @media screen and (max-width: 576px) {
+    body {
+        display: block; /* Disable flexbox for smaller screens */
+    }
+
     .container {
-        height: 80%;
-        margin: auto;
+        height: auto; /* Adjust height to auto */
+        margin: 10px auto; /* Center horizontally and add top/bottom margin */
+        width: 90%; /* Ensure it takes a reasonable width */
+    }
+
+    h2 {
+        font-size: 30px; /* Reduce font size for small screens */
+    }
+
+    button {
+        width: 150px; /* Adjust button width */
     }
 }
-
